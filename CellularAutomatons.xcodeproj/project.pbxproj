@@ -11,6 +11,8 @@
 		B037F78E29B0415C0016224B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F78D29B0415C0016224B /* ContentView.swift */; };
 		B037F79029B0415D0016224B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B037F78F29B0415D0016224B /* Assets.xcassets */; };
 		B037F79329B0415D0016224B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B037F79229B0415D0016224B /* Preview Assets.xcassets */; };
+		B037F79B29B0416A0016224B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B037F79A29B0416A0016224B /* README.md */; };
+		B037F79D29B041750016224B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B037F79C29B041750016224B /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		B037F78F29B0415D0016224B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B037F79229B0415D0016224B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B037F79429B0415D0016224B /* CellularAutomatons.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CellularAutomatons.entitlements; sourceTree = "<group>"; };
+		B037F79A29B0416A0016224B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B037F79C29B041750016224B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +40,8 @@
 		B037F77F29B0415C0016224B = {
 			isa = PBXGroup;
 			children = (
+				B037F79A29B0416A0016224B /* README.md */,
+				B037F79C29B041750016224B /* .gitignore */,
 				B037F78A29B0415C0016224B /* CellularAutomatons */,
 				B037F78929B0415C0016224B /* Products */,
 			);
@@ -127,6 +133,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B037F79D29B041750016224B /* .gitignore in Resources */,
+				B037F79B29B0416A0016224B /* README.md in Resources */,
 				B037F79329B0415D0016224B /* Preview Assets.xcassets in Resources */,
 				B037F79029B0415D0016224B /* Assets.xcassets in Resources */,
 			);
