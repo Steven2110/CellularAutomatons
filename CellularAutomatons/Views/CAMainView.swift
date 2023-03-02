@@ -32,6 +32,21 @@ struct CAMainView: View {
                         Text("\($0)")
                     }
                 }
+                Button {
+                    
+                } label: {
+                    Text("Start")
+                }
+                Button {
+                    
+                } label: {
+                    Text("Stop")
+                }
+                Button {
+                    
+                } label: {
+                    Text("Reset")
+                }
             }
             .padding()
             .frame(width: 500)
