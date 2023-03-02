@@ -27,24 +27,26 @@ struct CAMainView: View {
                         Text("\($0)")
                     }
                 }
-                Button {
-                    
-                } label: {
-                    Text("Start")
-                }
-                Button {
-                    
-                } label: {
-                    Text("Stop")
-                }
-                Button {
-                    
-                } label: {
-                    Text("Reset")
+                HStack {
+                    Button {
+                        
+                    } label: {
+                        Text("Start")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("Stop")
+                    }
+                    Button {
+                        
+                    } label: {
+                        Text("Reset")
+                    }
                 }
             }
             .padding()
-            .frame(width: 500)
+            .frame(width: 300)
             .frame(maxHeight: .infinity)
             VStack {
                 ForEach(0..<cellularBox.count) { i in
