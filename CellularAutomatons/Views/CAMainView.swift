@@ -11,17 +11,12 @@ struct CAMainView: View {
     
     @State private var rule: Int = 0
     
-    @State private var cellularBox: [[Int]] = [
-        [0, 0, 0, 0, 1, 0, 1, 1, 0, 0],
-        [0, 0, 0, 1, 0, 0, 1, 0, 1, 0],
-        [0, 0, 0, 0, 1, 0, 0, 1, 1, 0],
-        [0, 1, 0, 1, 1, 0, 1, 0, 0, 0],
-        [0, 1, 0, 1, 1, 0, 1, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 0, 0, 1, 0, 0, 0, 0, 1, 0],
-        [0, 0, 1, 0, 0, 1, 0, 0, 0, 0],
-        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        [0, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+    @State private var cellularBox: [[Cell]] = [
+        [Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell()],
+        [Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell()],
+        [Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell()],
+        [Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell()],
+        [Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell(), Cell()],
     ]
     
     var body: some View {
@@ -57,14 +52,10 @@ struct CAMainView: View {
                         ForEach(0..<cellularBox[i].count) { j in
                             Rectangle()
                                 .frame(width: 50, height: 50)
-                                .foregroundColor((cellularBox[i][j] == 1) ? .black : .white)
+                                .foregroundColor((cellularBox[i][j].state == 1) ? .black : .white)
                                 .onTapGesture {
                                     if i == 0 {
-                                        if cellularBox[i][j] == 1 {
-                                            cellularBox[i][j] = 0
-                                        } else {
-                                            cellularBox[i][j] = 1
-                                        }
+                                        cellularBox[i][j].toggle()
                                     }
                                 }
                         }

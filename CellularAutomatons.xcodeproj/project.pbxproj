@@ -14,6 +14,7 @@
 		B037F79B29B0416A0016224B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B037F79A29B0416A0016224B /* README.md */; };
 		B037F79D29B041750016224B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B037F79C29B041750016224B /* .gitignore */; };
 		B037F7A229B043B80016224B /* CAMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A129B043B80016224B /* CAMainView.swift */; };
+		B037F7A429B04BCF0016224B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A329B04BCF0016224B /* Cell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B037F79A29B0416A0016224B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B037F79C29B041750016224B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B037F7A129B043B80016224B /* CAMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMainView.swift; sourceTree = "<group>"; };
+		B037F7A329B04BCF0016224B /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		B037F79F29B043A60016224B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B037F7A329B04BCF0016224B /* Cell.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B037F78E29B0415C0016224B /* ContentView.swift in Sources */,
+				B037F7A429B04BCF0016224B /* Cell.swift in Sources */,
 				B037F7A229B043B80016224B /* CAMainView.swift in Sources */,
 				B037F78C29B0415C0016224B /* CellularAutomatonsApp.swift in Sources */,
 			);
