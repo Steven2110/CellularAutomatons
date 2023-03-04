@@ -15,6 +15,8 @@
 		B037F79D29B041750016224B /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B037F79C29B041750016224B /* .gitignore */; };
 		B037F7A229B043B80016224B /* CAMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A129B043B80016224B /* CAMainView.swift */; };
 		B037F7A429B04BCF0016224B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A329B04BCF0016224B /* Cell.swift */; };
+		B037F7A629B04DA40016224B /* CAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A529B04DA40016224B /* CAViewModel.swift */; };
+		B037F7A829B051DF0016224B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F7A729B051DF0016224B /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		B037F79C29B041750016224B /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B037F7A129B043B80016224B /* CAMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAMainView.swift; sourceTree = "<group>"; };
 		B037F7A329B04BCF0016224B /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		B037F7A529B04DA40016224B /* CAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAViewModel.swift; sourceTree = "<group>"; };
+		B037F7A729B051DF0016224B /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 			children = (
 				B037F78B29B0415C0016224B /* CellularAutomatonsApp.swift */,
 				B037F78D29B0415C0016224B /* ContentView.swift */,
+				B037F7A729B051DF0016224B /* Utils.swift */,
 				B037F79F29B043A60016224B /* Models */,
 				B037F7A029B043AA0016224B /* ViewModels */,
 				B037F79E29B043A20016224B /* Views */,
@@ -101,6 +106,7 @@
 		B037F7A029B043AA0016224B /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B037F7A529B04DA40016224B /* CAViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,8 +185,10 @@
 			files = (
 				B037F78E29B0415C0016224B /* ContentView.swift in Sources */,
 				B037F7A429B04BCF0016224B /* Cell.swift in Sources */,
+				B037F7A629B04DA40016224B /* CAViewModel.swift in Sources */,
 				B037F7A229B043B80016224B /* CAMainView.swift in Sources */,
 				B037F78C29B0415C0016224B /* CellularAutomatonsApp.swift in Sources */,
+				B037F7A829B051DF0016224B /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
