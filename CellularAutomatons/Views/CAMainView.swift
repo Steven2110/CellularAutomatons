@@ -23,16 +23,16 @@ struct CAMainView: View {
         HSplitView {
             VStack(alignment: .leading) {
                 HStack {
-                    CAPicker(text: "Rows", data: $sizeRow, limit: 50)
+                    CAPicker(text: "Rows", data: $sizeRow, lowerLimit: 1, upperLimit: 50)
                     .onChange(of: sizeRow) { _ in
                         vm.setNewSize(row: sizeRow, cell: sizeCell)
                     }
-                    CAPicker(text: "Cells", data: $sizeCell, limit: 20)
+                    CAPicker(text: "Cells", data: $sizeCell, lowerLimit: 1, upperLimit: 20)
                     .onChange(of: sizeCell) { _ in
                         vm.setNewSize(row: sizeRow, cell: sizeCell)
                     }
                 }
-                CAPicker(text: "Rule", data: $rule, limit: 255)
+                CAPicker(text: "Rule", data: $rule, upperLimit: 255)
                 HStack {
                     startButton
                     stopButton
