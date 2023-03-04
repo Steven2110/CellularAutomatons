@@ -15,7 +15,7 @@ struct CAPicker: View {
     
     var body: some View {
         Picker(text, selection: $data) {
-            ForEach(0...50, id: \.self) {
+            ForEach(0...limit, id: \.self) {
                 Text("\($0)")
             }
         }
