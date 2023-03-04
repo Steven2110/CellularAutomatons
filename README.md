@@ -1,5 +1,5 @@
 # Cellular Automatons
-Cellular Automatons is laboratory assignment № 3 simulation (имитационное моделирование). In this project we are simulating how a cell evolve with discrete model of computation.
+Cellular Automatons is laboratory assignment № 3 simulation (имитационное моделирование). In this project we are simulating how some cell in a single row evolve with discrete model of computation into new row creating a pattern in 2D plane.
 
 # Screenshot of the app
 Using Rule number 110
