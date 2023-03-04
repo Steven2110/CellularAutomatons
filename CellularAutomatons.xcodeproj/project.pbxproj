@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B016014B29B2CE3B00B2DEDD /* CAPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B016014A29B2CE3B00B2DEDD /* CAPicker.swift */; };
+		B016014D29B2CF9100B2DEDD /* CAIndexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B016014C29B2CF9100B2DEDD /* CAIndexCell.swift */; };
+		B016014F29B2CFBA00B2DEDD /* CACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B016014E29B2CFBA00B2DEDD /* CACell.swift */; };
 		B037F78C29B0415C0016224B /* CellularAutomatonsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F78B29B0415C0016224B /* CellularAutomatonsApp.swift */; };
 		B037F78E29B0415C0016224B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B037F78D29B0415C0016224B /* ContentView.swift */; };
 		B037F79029B0415D0016224B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B037F78F29B0415D0016224B /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B016014A29B2CE3B00B2DEDD /* CAPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAPicker.swift; sourceTree = "<group>"; };
+		B016014C29B2CF9100B2DEDD /* CAIndexCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAIndexCell.swift; sourceTree = "<group>"; };
+		B016014E29B2CFBA00B2DEDD /* CACell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACell.swift; sourceTree = "<group>"; };
 		B037F78829B0415C0016224B /* CellularAutomatons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellularAutomatons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B037F78B29B0415C0016224B /* CellularAutomatonsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellularAutomatonsApp.swift; sourceTree = "<group>"; };
 		B037F78D29B0415C0016224B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				B037F7A129B043B80016224B /* CAMainView.swift */,
+				B016014E29B2CFBA00B2DEDD /* CACell.swift */,
+				B016014C29B2CF9100B2DEDD /* CAIndexCell.swift */,
+				B016014A29B2CE3B00B2DEDD /* CAPicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,8 +192,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B016014D29B2CF9100B2DEDD /* CAIndexCell.swift in Sources */,
+				B016014B29B2CE3B00B2DEDD /* CAPicker.swift in Sources */,
 				B037F78E29B0415C0016224B /* ContentView.swift in Sources */,
 				B037F7A429B04BCF0016224B /* Cell.swift in Sources */,
+				B016014F29B2CFBA00B2DEDD /* CACell.swift in Sources */,
 				B037F7A629B04DA40016224B /* CAViewModel.swift in Sources */,
 				B037F7A229B043B80016224B /* CAMainView.swift in Sources */,
 				B037F78C29B0415C0016224B /* CellularAutomatonsApp.swift in Sources */,
